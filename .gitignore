@@ -1,0 +1,7 @@
+.bundle
+.rvmrc
+.DS_Store
+/data
+/files
+/XML*
+*.csv

@@ -1,0 +1,20 @@
+Get and extract files with
+
+    ruby get_files.rb
+    ruby extract_files.rb
+
+Process extracted XML files with
+
+    ruby process_files.rb YYYY >results-YYYY.csv
+
+Concatenate results files with
+
+    ruby concatenate_results.rb
+
+Identify and save duplicates with
+
+    ruby eliminate_duplicates.rb
+
+Prepare results for analysis with fixed customer and supplier names and eliminated duplicates
+
+    ruby prepare_for_analysis.rb >results_for_analysis.csv
